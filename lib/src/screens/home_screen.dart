@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
 class _BackgroundImage extends StatelessWidget {
   final Widget child;
 
-  const _BackgroundImage({super.key, required this.child});
+  const _BackgroundImage({required this.child});
 
   @override
   Widget build(BuildContext context) {
